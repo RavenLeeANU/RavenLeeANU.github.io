@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 最小二乘法
-categories: [cate1, cate2]
+categories: Blog
 description: some word here
 keywords: keyword1, keyword2
 ---

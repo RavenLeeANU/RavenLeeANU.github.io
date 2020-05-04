@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 朴素贝叶斯
-categories: [cate1, cate2]
+categories: Blog
 description: some word here
 keywords: keyword1, keyword2
 ---
