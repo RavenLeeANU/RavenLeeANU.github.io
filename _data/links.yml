@@ -5,3 +5,22 @@
 - name: Springer
   url: https://link.springer.com/chapter/10.1007%2F978-3-030-36802-9_48
   src: life
+
+- name: Leetcode
+  url: https://https://leetcode-cn.com
+  src: life
+
+- name: 牛客网
+  url: https://www.nowcoder.com
+  src: life
+
+- name: SegmentFault
+  url: https://segmentfault.com/p/1210000012109277/read
+  src: life
+
+- name: 机器之心
+  url: https://www.jiqizhixin.com/
+  src: life
+
+
+
