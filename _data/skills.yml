@@ -1,19 +1,20 @@
-- name: Software Engineer Keywords
+- name: Artificial Intelligence Keywords
   keywords:
-      - Java
+      - Matlab
+      - Tensorflow
+      - Pytorch
+
+- name: Coding Languages Keywords
+  keywords:
       - C++
+      - JAVA
+      - C#
       - Python
+
+- name: Domains Keywords
+  keywords:
+      - Computer Vision
       - Machine Learning
-
-- name: Mobile Developer Keywords
-  keywords:
-      - Android
-      - Reverse Engineering
-
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - Neural Network
+      - Motion Detection
+      - Image Process
