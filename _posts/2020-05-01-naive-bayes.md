@@ -3,7 +3,7 @@ layout: post
 title: 朴素贝叶斯
 categories: Blog
 description: some word here
-keywords: keyword1, keyword2
+keywords: Bayes, Naive
 ---
 
 ### 朴素贝叶斯
@@ -17,13 +17,10 @@ keywords: keyword1, keyword2
 用后验概率去验证先验概率以获得假设的准确性。
 
 贝叶斯公式用来描述两个条件概率之间的关系
-$$
-P(A|B) = \frac{P(B|A)P(A)}{P(B)}
-$$
+![](http://latex.codecogs.com/gif.latex?P(A|B)=\\frac{P(B|A)P(A)}{P(B)}) 
+
 也即
-$$
-P(A|B) = \frac{P(B\cap A)}{P(B)}
-$$
+![](http://latex.codecogs.com/gif.latex?P(A|B)=\\frac{P(B{\\bigcap}A)}{P(B)}) 
 其关系如下图表示
 
 ![](/images/posts/image-20200417112632618.png)
@@ -46,12 +43,19 @@ $$
 | No           | Email    |
 
 整理原式子
-$$
-p(垃圾邮件)=\frac{垃圾邮件}{所有邮件}=\frac{2}{5}\\
-p(出现“中奖”)=\frac{出现“中奖”的邮件}{所有邮件}=\frac{2}{5}\\
-p(出现“中奖”|垃圾邮件)=\frac{出现“中奖”的邮件}{所有垃圾邮件}=\frac{3}{4}\\
-p(垃圾邮件|出现“中奖”)=\frac{垃圾邮件}{出现“中奖”的邮件}=\frac{p(出现“中奖”|垃圾邮件)p(垃圾邮件)}{p(出现“中奖”)}=\frac{3}{4}
-$$
+
+
+![](http://latex.codecogs.com/gif.latex?p(Spam)=\\frac{Spam}{All}=\\frac{2}{5}) 
+
+
+![](http://latex.codecogs.com/gif.latex?p(Spam)=p(Keyword"Bonus")=\\frac{Keyword"Bonus"}{All}=\\frac{2}{5}) 
+
+
+![](http://latex.codecogs.com/gif.latex?p(Spam)=p(Keyword"Bonus"|Spam)=\\frac{Keyword"Bonus"}{AllSpam}=\\frac{3}{4}) 
+
+
+![](http://latex.codecogs.com/gif.latex?p(Spam)=p(Spam|Keyword"Bonus")=\\frac{Spam}{Keyword"Bonus"}=\\frac{p(Keyword"Bonus"|Spam)p(Spam)}{p(Keyword"Bonus")}=\\frac{3}{4}) 
+
 
 #### 4.相关链接
 
