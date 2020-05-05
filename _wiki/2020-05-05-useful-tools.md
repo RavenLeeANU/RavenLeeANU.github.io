@@ -26,3 +26,9 @@ jpg转ico:[bitbug](http://www.bitbug.net/)
 
 在线PS:[稿定](https://ps.gaoding.com/#/)
 
+#### 4. MarkDown
+
+Latex插入公式 [Latex实例](https://www.jianshu.com/p/16fbd768bfe7)
+
+Github MarkDown 语法 [Markdown实例](https://www.jianshu.com/p/40ba812dd973)
+
