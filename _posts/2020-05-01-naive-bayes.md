@@ -44,17 +44,10 @@ keywords: Bayes, Naive
 
 整理原式子
 
-
-![](http://latex.codecogs.com/gif.latex?p(Spam)=\frac{Spam}{All}=\frac{2}{5}) 
-
-
-![](http://latex.codecogs.com/gif.latex?p(Spam)=p(Keyword-Bonus)=\frac{Keyword-Bonus}{All}=\frac{2}{5}) 
-
-
-![](http://latex.codecogs.com/gif.latex?p(Spam)=p(Keyword-Bonus|Spam)=\frac{Keyword-Bonus}{AllSpam}=\frac{3}{4}) 
-
-
-![](http://latex.codecogs.com/gif.latex?p(Spam)=p(Spam|Keyword-Bonus)=\frac{Spam}{Keyword-Bonus}=\frac{p(Keyword-Bonus|Spam)p(Spam)}{p(Keyword-Bonus)}=\frac{3}{4}) 
+![](http://latex.codecogs.com/gif.latex?p(Spam)=\frac{Spam}{All}=\frac{2}{5}) </br>
+![](http://latex.codecogs.com/gif.latex?p(Spam)=p(Bonus)=\frac{Bonus}{All}=\frac{2}{5}) </br>
+![](http://latex.codecogs.com/gif.latex?p(Spam)=p(Bonus|Spam)=\frac{Bonus}{AllSpam}=\frac{3}{4}) </br>
+![](http://latex.codecogs.com/gif.latex?p(Spam)=p(Spam|Bonus)=\frac{Spam}{Bonus}=\frac{p(Bonus|Spam)p(Spam)}{p(Bonus)}=\frac{3}{4}) </br>
 
 
 #### 4.相关链接
