@@ -38,11 +38,11 @@ i=1...n
 ![](http://latex.codecogs.com/gif.latex?\frac{\partial{\epsilon}}{\partial{a}}=2\sum_{i=1}^n({-x_iy_i+ax_i^2+bx_i})=0)
 
 
-![](http://latex.codecogs.com/gif.latex?\frac{\frac{\partial{\epsilon}}{\partial{b}}=2\sum_{i=1}^n({-y_i+ax_i)+nb}=0)
+![](http://latex.codecogs.com/gif.latex?\frac{\frac{\partial{\epsilon}}}{\partial{b}=2\sum_{i=1}^n{(-y_i+ax_i)+nb}}=0)
 
 整理得到
 
-![](http://latex.codecogs.com/gif.latex?\frac{\sum_{i=1}^n{x_iy_i=a\{sum_{i=1}^n}{x_i^2}+b\sum_{i=1}^nx_i})
+![](http://latex.codecogs.com/gif.latex?\frac{\sum_{i=1}^n{x_iy_i=a\{sum_{i=1}^n}{x_i^2}+b{\sum_{i=1}^nx_i}})
 
 
 ![](http://latex.codecogs.com/gif.latex?\frac{\sum_{i=1}^n{y_i}-a\sum_{i=1}^nx_i=nb)
