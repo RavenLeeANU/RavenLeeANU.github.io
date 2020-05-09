@@ -11,66 +11,62 @@ keywords: keyword1, keyword2
 #### 1.作用及问题描述
 
 普通最小二乘法（ordinary least squares, OLS）是解决线性回归问题的一种有效方法，可应用于线性系统数据估计、预测等问题，推荐系统等方面。一元最小二乘法中设拟合直线为
-$$
-y = a x + b
-$$
+
+
+![](http://latex.codecogs.com/gif.latex?y=ax+b)
+
+
 已知观测点数据表示为
-$$
-\{ x_i,y_i\} ，i=1...n
-$$
+
+![](http://latex.codecogs.com/gif.latex?\{ x_i,y_i\})
+
+i=1...n
 
 #### 2.公式推导
 
 构建平方关系的代价函数为
-$$
-\epsilon=\sum_{i=1}^n(y_i-y'_i)^2
-$$
+
+![](http://latex.codecogs.com/gif.latex?\epsilon=\sum_{i=1}^n(y_i-y'_i)^2)
 且
-$$
-y'_i=ax_i+b
-$$
+
+![](http://latex.codecogs.com/gif.latex?\y'_i=ax_i+b)
+
 根据构造关系可知，代价函数为凸，极值点在导数为0时存在极值（代价函数的判定方法为二阶Hessian矩阵半正定）。
 
 因此令代价函数求一阶偏导为0
-$$
-\frac {\partial \epsilon} {\partial a}=2\sum_{i=1}^n({-x_iy_i+ax_i^2+bx_i})=0
-$$
 
-$$
-\frac {\partial \epsilon} {\partial b}=2\sum_{i=1}^n({-y_i+ax_i)+nb}=0
-$$
+![](http://latex.codecogs.com/gif.latex?\frac {\partial \epsilon} {\partial a}=2\sum_{i=1}^n({-x_iy_i+ax_i^2+bx_i})=0)
+
+
+![](http://latex.codecogs.com/gif.latex?\frac {\frac {\partial \epsilon} {\partial b}=2\sum_{i=1}^n({-y_i+ax_i)+nb}=0)
 
 整理得到
-$$
-\sum_{i=1}^n{x_iy_i =a\sum_{i=1}^n x_i^2 +b \sum_{i=1}^nx_i}
-$$
 
-$$
-\sum_{i=1}^n{y_i}-a\sum_{i=1}^nx_i=nb
-$$
+![](http://latex.codecogs.com/gif.latex?\frac {\sum_{i=1}^n{x_iy_i =a\sum_{i=1}^n x_i^2 +b \sum_{i=1}^nx_i})
+
+
+![](http://latex.codecogs.com/gif.latex?\frac {\sum_{i=1}^n{y_i}-a\sum_{i=1}^nx_i=nb)
+
 
 令
-$$
-\sum_{i=1}^n{x_i}= n\overline{x}
-$$
 
-$$
-\sum_{i=1}^n{y_i}= n\overline{y}
-$$
+![](http://latex.codecogs.com/gif.latex?\sum_{i=1}^n{x_i}= n\overline{x})
+
+
+![](http://latex.codecogs.com/gif.latex?\sum_{i=1}^n{y_i}= n\overline{y})
+
 
 则代入有
-$$
-a = \frac {\sum_{i=1}^nx_iy_i - \overline{y}\sum_{i=1}^nx_i} {\sum_{i=1}^n x_i^2-\overline{x}\sum_{i=1}^n x_i}
-$$
 
-$$
-b = \overline{y}-a\overline{x}
-$$
+![](http://latex.codecogs.com/gif.latex?a = \frac {\sum_{i=1}^nx_iy_i - \overline{y}\sum_{i=1}^nx_i} {\sum_{i=1}^n x_i^2-\overline{x}\sum_{i=1}^n x_i})
+
+
+![](http://latex.codecogs.com/gif.latex?b = \overline{y}-a\overline{x})
+
 
 应用求和性质得到
-$$
-a = \frac {\sum_{i=1}^nx_iy_i - n\overline{x} \overline{y}} {\sum_{i=1}^n x_i^2-n\overline{x}^2}=\frac{\overline{xy}-\overline{x} \cdot\overline{y}}{\overline{x^2}-\overline{x}^2}
-$$
+
+![](http://latex.codecogs.com/gif.latex?a = \frac {\sum_{i=1}^nx_iy_i - n\overline{x} \overline{y}} {\sum_{i=1}^n x_i^2-n\overline{x}^2}=\frac{\overline{xy}-\overline{x} \cdot\overline{y}}{\overline{x^2}-\overline{x}^2})
 
 #### 3.应用
 
@@ -91,12 +87,10 @@ $$
 
 
 最终拟合结果为
-$$
-\begin{array}{c}
+![](http://latex.codecogs.com/gif.latex?\begin{array}{c}
 a \approx 7.2  \\
 b \approx -73
-\end{array}
-$$
+\end{array})
 
 
 ![](/images/posts/image-20200417104802318.png)
