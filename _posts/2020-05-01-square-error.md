@@ -18,7 +18,7 @@ keywords: keyword1, keyword2
 
 已知观测点数据表示为
 
-![](http://latex.codecogs.com/gif.latex?\{ x_i,y_i\})
+![](http://latex.codecogs.com/gif.latex?\{x_i,y_i\})
 
 i=1...n
 
@@ -35,38 +35,38 @@ i=1...n
 
 因此令代价函数求一阶偏导为0
 
-![](http://latex.codecogs.com/gif.latex?\frac {\partial \epsilon} {\partial a}=2\sum_{i=1}^n({-x_iy_i+ax_i^2+bx_i})=0)
+![](http://latex.codecogs.com/gif.latex?\frac{\partial{\epsilon}}{\partial{a}}=2\sum_{i=1}^n({-x_iy_i+ax_i^2+bx_i})=0)
 
 
-![](http://latex.codecogs.com/gif.latex?\frac {\frac {\partial \epsilon} {\partial b}=2\sum_{i=1}^n({-y_i+ax_i)+nb}=0)
+![](http://latex.codecogs.com/gif.latex?\frac{\frac{\partial{\epsilon}}{\partial{b}}=2\sum_{i=1}^n({-y_i+ax_i)+nb}=0)
 
 整理得到
 
-![](http://latex.codecogs.com/gif.latex?\frac {\sum_{i=1}^n{x_iy_i =a\sum_{i=1}^n x_i^2 +b \sum_{i=1}^nx_i})
+![](http://latex.codecogs.com/gif.latex?\frac{\sum_{i=1}^n{x_iy_i=a\{sum_{i=1}^n}{x_i^2}+b\sum_{i=1}^nx_i})
 
 
-![](http://latex.codecogs.com/gif.latex?\frac {\sum_{i=1}^n{y_i}-a\sum_{i=1}^nx_i=nb)
+![](http://latex.codecogs.com/gif.latex?\frac{\sum_{i=1}^n{y_i}-a\sum_{i=1}^nx_i=nb)
 
 
 令
 
-![](http://latex.codecogs.com/gif.latex?\sum_{i=1}^n{x_i}= n\overline{x})
+![](http://latex.codecogs.com/gif.latex?\sum_{i=1}^n{x_i}=n\overline{x})
 
 
-![](http://latex.codecogs.com/gif.latex?\sum_{i=1}^n{y_i}= n\overline{y})
+![](http://latex.codecogs.com/gif.latex?\sum_{i=1}^n{y_i}=n\overline{y})
 
 
 则代入有
 
-![](http://latex.codecogs.com/gif.latex?a = \frac {\sum_{i=1}^nx_iy_i - \overline{y}\sum_{i=1}^nx_i} {\sum_{i=1}^n x_i^2-\overline{x}\sum_{i=1}^n x_i})
+![](http://latex.codecogs.com/gif.latex?a=\frac{\sum_{i=1}^nx_iy_i-\overline{y}\sum_{i=1}^nx_i}{{\sum_{i=1}^n}x_i^2-\overline{x}\sum_{i=1}^n{x_i}})
 
 
-![](http://latex.codecogs.com/gif.latex?b = \overline{y}-a\overline{x})
+![](http://latex.codecogs.com/gif.latex?b=\overline{y}-a\overline{x})
 
 
 应用求和性质得到
 
-![](http://latex.codecogs.com/gif.latex?a = \frac {\sum_{i=1}^nx_iy_i - n\overline{x} \overline{y}} {\sum_{i=1}^n x_i^2-n\overline{x}^2}=\frac{\overline{xy}-\overline{x} \cdot\overline{y}}{\overline{x^2}-\overline{x}^2})
+![](http://latex.codecogs.com/gif.latex?a=\frac{\{sum_{i=1}^nx_iy_i}-n\overline{x}\overline{y}}{\sum_{i=1}^n x_i^2-n\overline{x}^2}=\frac{\overline{xy}-\overline{x}\cdot\overline{y}}{\overline{x^2}-\overline{x}^2})
 
 #### 3.应用
 
@@ -87,10 +87,7 @@ i=1...n
 
 
 最终拟合结果为
-![](http://latex.codecogs.com/gif.latex?\begin{array}{c}
-a \approx 7.2  \\
-b \approx -73
-\end{array})
+![](http://latex.codecogs.com/gif.latex?\begin{array}{c}a{\approx{7.2}}\\b\approx{-73}\end{array})
 
 
 ![](/images/posts/image-20200417104802318.png)
